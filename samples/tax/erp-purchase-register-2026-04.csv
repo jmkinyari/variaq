@@ -1,0 +1,11 @@
+Supplier Invoice No,eTIMS CU Invoice No,Invoice Date,Supplier PIN,Supplier Name,Taxable Amount,Input VAT,Total Amount,VAT Code,Description
+PI-881,0110693710000002955,2026-04-02,P060000001A,Bidco Distributors Ltd,300000.00,48000.00,348000.00,S,Stock purchases
+KPLC-APR-2026,,2026-04-05,,Kenya Power,40000.00,6400.00,46400.00,S,Electricity April
+OF-1123,,2026-04-09,P060000003C,Office Furnishers Ltd,150000.00,24000.00,174000.00,S,Office chairs
+FUEL-77,,2026-04-10,P060000004D,Safari Fuel Station,20000.00,1600.00,21600.00,8%,Diesel for delivery vans
+PS-2210,,2025-09-15,P060000005E,Prime Stationers,10000.00,1600.00,11600.00,S,Printer paper (late claim)
+GH-55,,2026-04-16,P060000006F,Grand Hotel Nairobi,25000.00,4000.00,29000.00,S,Staff accommodation and restaurant
+LCK-2026-0901,,2026-04-02,P060000007G,Lakeside Logistics Ltd,70000.00,11200.00,81200.00,S,Freight and delivery
+PI-882,,2026-04-22,P060000001A,Bidco Distributors Ltd,5000.00,800.00,5800.00,S,Stock purchases
+PI-882,,2026-04-22,P060000001A,Bidco Distributors Ltd,5000.00,800.00,5800.00,S,Stock purchases
+SX-44,,2026-04-25,P060000009J,Securex Ltd,60000.00,9600.00,69600.00,S,Security services April

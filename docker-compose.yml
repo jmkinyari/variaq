@@ -1,0 +1,88 @@
+# Multi-instance deployment: one libSQL server (sqld), two stateless app replicas behind nginx,
+# and a dedicated background worker. Put TLS in front of nginx (or terminate TLS in nginx).
+#
+#   cp .env.example .env    # then set VARIAQ_MASTER_KEY (npm run keygen), APP_URL, SQLD_AUTH_TOKEN
+#   docker compose up -d --build
+#
+# Scale web replicas with:  docker compose up -d --scale app=4
+services:
+  db:
+    image: ghcr.io/tursodatabase/libsql-server:v0.24.32
+    restart: unless-stopped
+    environment:
+      SQLD_NODE: primary
+      SQLD_HTTP_LISTEN_ADDR: 0.0.0.0:8080
+    volumes:
+      - dbdata:/var/lib/sqld
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:8080/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    networks: [internal]
+
+  app:
+    build: .
+    image: variaq:latest
+    restart: unless-stopped
+    deploy:
+      replicas: 2
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: http://db:8080
+      RUN_WORKER: "0"          # web replicas only serve requests; the worker service runs jobs
+    depends_on:
+      db: { condition: service_healthy }
+    networks: [internal]
+
+  worker:
+    image: variaq:latest
+    restart: unless-stopped
+    command: ["node", "scripts/worker.js"]
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: http://db:8080
+    depends_on:
+      db: { condition: service_healthy }
+      app: { condition: service_started }
+    networks: [internal]
+
+  proxy:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports: ["80:80"]
+    depends_on: [app]
+    configs:
+      - source: nginx_conf
+        target: /etc/nginx/conf.d/default.conf
+    networks: [internal]
+
+configs:
+  nginx_conf:
+    content: |
+      upstream variaq { server app:3000; keepalive 32; }
+      limit_req_zone $$binary_remote_addr zone=perip:10m rate=20r/s;
+      server {
+        listen 80;
+        client_max_body_size 30m;
+        server_tokens off;
+        location / {
+          limit_req zone=perip burst=60 nodelay;
+          proxy_pass http://variaq;
+          proxy_http_version 1.1;
+          proxy_set_header Connection "";
+          proxy_set_header Host $$host;
+          proxy_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
+          proxy_set_header X-Forwarded-Proto $$scheme;
+          proxy_set_header X-Real-IP $$remote_addr;
+          proxy_read_timeout 120s;
+        }
+      }
+
+volumes:
+  dbdata:
+
+networks:
+  internal:

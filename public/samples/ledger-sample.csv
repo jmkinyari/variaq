@@ -1,0 +1,201 @@
+Date,Reference,Narration,Account Code,Account Name,Debit,Credit,Counterparty
+2026-03-01,RENT-3,Warehouse rent Industrial Area,6500,Rent,250000.00,,Enterprise Road Properties
+2026-03-01,RENT-3,Warehouse rent Industrial Area,1010,KCB Operating Account,,250000.00,Enterprise Road Properties
+2026-03-02,INV-3100,Invoice INV-3100 Lakeview Schools,1100,Accounts Receivable,638800.00,,Lakeview Schools
+2026-03-02,INV-3100,Invoice INV-3100 Lakeview Schools,4000,Sales,,550700.00,Lakeview Schools
+2026-03-02,INV-3100,Invoice INV-3100 Lakeview Schools,2200,VAT Payable,,88100.00,Lakeview Schools
+2026-03-03,PO-370,Bill PO-370 Pwani Imports Ltd,1200,Inventory,444100.00,,Pwani Imports Ltd
+2026-03-03,PO-370,Bill PO-370 Pwani Imports Ltd,2200,VAT Payable,71100.00,,Pwani Imports Ltd
+2026-03-03,PO-370,Bill PO-370 Pwani Imports Ltd,2000,Accounts Payable,,515200.00,Pwani Imports Ltd
+2026-03-03,PO-370,Cost of goods sold PO-370,5000,Cost of Sales,444100.00,,Pwani Imports Ltd
+2026-03-03,PO-370,Cost of goods sold PO-370,1200,Inventory,,444100.00,Pwani Imports Ltd
+2026-03-04,QK304AX5996,Fuel Savanna Fuels delivery vans,6100,Fuel & Delivery,55300.00,,Savanna Fuels
+2026-03-04,QK304AX5996,Fuel Savanna Fuels delivery vans,1010,KCB Operating Account,,55300.00,Savanna Fuels
+2026-03-05,INV-3101,Invoice INV-3101 Lakeview Schools,1100,Accounts Receivable,845800.00,,Lakeview Schools
+2026-03-05,INV-3101,Invoice INV-3101 Lakeview Schools,4000,Sales,,729100.00,Lakeview Schools
+2026-03-05,INV-3101,Invoice INV-3101 Lakeview Schools,2200,VAT Payable,,116700.00,Lakeview Schools
+2026-03-06,PO-370,Payment Pwani Imports Ltd PO-370,2000,Accounts Payable,515200.00,,Pwani Imports Ltd
+2026-03-06,PO-370,Payment Pwani Imports Ltd PO-370,1010,KCB Operating Account,,515200.00,Pwani Imports Ltd
+2026-03-07,INV-3100,Receipt Lakeview Schools INV-3100,1010,KCB Operating Account,638800.00,,Lakeview Schools
+2026-03-07,INV-3100,Receipt Lakeview Schools INV-3100,1100,Accounts Receivable,,638800.00,Lakeview Schools
+2026-03-07,PO-371,Bill PO-371 Riverside Wholesalers,1200,Inventory,245200.00,,Riverside Wholesalers
+2026-03-07,PO-371,Bill PO-371 Riverside Wholesalers,2200,VAT Payable,39200.00,,Riverside Wholesalers
+2026-03-07,PO-371,Bill PO-371 Riverside Wholesalers,2000,Accounts Payable,,284400.00,Riverside Wholesalers
+2026-03-07,PO-371,Cost of goods sold PO-371,5000,Cost of Sales,245200.00,,Riverside Wholesalers
+2026-03-07,PO-371,Cost of goods sold PO-371,1200,Inventory,,245200.00,Riverside Wholesalers
+2026-03-08,INV-3102,Invoice INV-3102 Westlands Offices Ltd,1100,Accounts Receivable,312200.00,,Westlands Offices Ltd
+2026-03-08,INV-3102,Invoice INV-3102 Westlands Offices Ltd,4000,Sales,,269100.00,Westlands Offices Ltd
+2026-03-08,INV-3102,Invoice INV-3102 Westlands Offices Ltd,2200,VAT Payable,,43100.00,Westlands Offices Ltd
+2026-03-08,QK308BX7318,Fuel Highway Petroleum delivery vans,6100,Fuel & Delivery,57500.00,,Highway Petroleum
+2026-03-08,QK308BX7318,Fuel Highway Petroleum delivery vans,1010,KCB Operating Account,,57500.00,Highway Petroleum
+2026-03-09,INV-3101,Receipt Lakeview Schools INV-3101,1010,KCB Operating Account,845800.00,,Lakeview Schools
+2026-03-09,INV-3101,Receipt Lakeview Schools INV-3101,1100,Accounts Receivable,,845800.00,Lakeview Schools
+2026-03-10,INV-3102,Receipt Westlands Offices Ltd INV-3102,1010,KCB Operating Account,312200.00,,Westlands Offices Ltd
+2026-03-10,INV-3102,Receipt Westlands Offices Ltd INV-3102,1100,Accounts Receivable,,312200.00,Westlands Offices Ltd
+2026-03-10,PO-371,Payment Riverside Wholesalers PO-371,2000,Accounts Payable,284400.00,,Riverside Wholesalers
+2026-03-10,PO-371,Payment Riverside Wholesalers PO-371,1010,KCB Operating Account,,284400.00,Riverside Wholesalers
+2026-03-11,INV-3103,Invoice INV-3103 Upper Hill Clinics,1100,Accounts Receivable,432400.00,,Upper Hill Clinics
+2026-03-11,INV-3103,Invoice INV-3103 Upper Hill Clinics,4000,Sales,,372800.00,Upper Hill Clinics
+2026-03-11,INV-3103,Invoice INV-3103 Upper Hill Clinics,2200,VAT Payable,,59600.00,Upper Hill Clinics
+2026-03-11,PO-372,Bill PO-372 Thika Road Distributors,1200,Inventory,125800.00,,Thika Road Distributors
+2026-03-11,PO-372,Bill PO-372 Thika Road Distributors,2200,VAT Payable,20100.00,,Thika Road Distributors
+2026-03-11,PO-372,Bill PO-372 Thika Road Distributors,2000,Accounts Payable,,145900.00,Thika Road Distributors
+2026-03-11,PO-372,Cost of goods sold PO-372,5000,Cost of Sales,125800.00,,Thika Road Distributors
+2026-03-11,PO-372,Cost of goods sold PO-372,1200,Inventory,,125800.00,Thika Road Distributors
+2026-03-12,QK312CX8315,Fuel Savanna Fuels delivery vans,6100,Fuel & Delivery,63600.00,,Savanna Fuels
+2026-03-12,QK312CX8315,Fuel Savanna Fuels delivery vans,1010,KCB Operating Account,,63600.00,Savanna Fuels
+2026-03-14,INV-3104,Invoice INV-3104 Lakeview Schools,1100,Accounts Receivable,773300.00,,Lakeview Schools
+2026-03-14,INV-3104,Invoice INV-3104 Lakeview Schools,4000,Sales,,666600.00,Lakeview Schools
+2026-03-14,INV-3104,Invoice INV-3104 Lakeview Schools,2200,VAT Payable,,106700.00,Lakeview Schools
+2026-03-14,PO-372,Payment Thika Road Distributors PO-372,2000,Accounts Payable,145900.00,,Thika Road Distributors
+2026-03-14,PO-372,Payment Thika Road Distributors PO-372,1010,KCB Operating Account,,145900.00,Thika Road Distributors
+2026-03-15,PO-373,Bill PO-373 Mlimani Packaging Ltd,1200,Inventory,316600.00,,Mlimani Packaging Ltd
+2026-03-15,PO-373,Bill PO-373 Mlimani Packaging Ltd,2200,VAT Payable,50700.00,,Mlimani Packaging Ltd
+2026-03-15,PO-373,Bill PO-373 Mlimani Packaging Ltd,2000,Accounts Payable,,367300.00,Mlimani Packaging Ltd
+2026-03-15,PO-373,Cost of goods sold PO-373,5000,Cost of Sales,316600.00,,Mlimani Packaging Ltd
+2026-03-15,PO-373,Cost of goods sold PO-373,1200,Inventory,,316600.00,Mlimani Packaging Ltd
+2026-03-16,INV-3103,Receipt Upper Hill Clinics INV-3103,1010,KCB Operating Account,432400.00,,Upper Hill Clinics
+2026-03-16,INV-3103,Receipt Upper Hill Clinics INV-3103,1100,Accounts Receivable,,432400.00,Upper Hill Clinics
+2026-03-17,INV-3104,Receipt Lakeview Schools INV-3104,1010,KCB Operating Account,773300.00,,Lakeview Schools
+2026-03-17,INV-3104,Receipt Lakeview Schools INV-3104,1100,Accounts Receivable,,773300.00,Lakeview Schools
+2026-03-17,INV-3105,Invoice INV-3105 Upper Hill Clinics,1100,Accounts Receivable,270300.00,,Upper Hill Clinics
+2026-03-17,INV-3105,Invoice INV-3105 Upper Hill Clinics,4000,Sales,,233000.00,Upper Hill Clinics
+2026-03-17,INV-3105,Invoice INV-3105 Upper Hill Clinics,2200,VAT Payable,,37300.00,Upper Hill Clinics
+2026-03-18,PO-373,Payment Mlimani Packaging Ltd PO-373,2000,Accounts Payable,367300.00,,Mlimani Packaging Ltd
+2026-03-18,PO-373,Payment Mlimani Packaging Ltd PO-373,1010,KCB Operating Account,,367300.00,Mlimani Packaging Ltd
+2026-03-18,KPLC-3,KPLC electricity warehouse,6200,Electricity,168000.00,,Kenya Power
+2026-03-18,KPLC-3,KPLC electricity warehouse,1010,KCB Operating Account,,168000.00,Kenya Power
+2026-03-19,PO-374,Bill PO-374 Thika Road Distributors,1200,Inventory,217300.00,,Thika Road Distributors
+2026-03-19,PO-374,Bill PO-374 Thika Road Distributors,2200,VAT Payable,34800.00,,Thika Road Distributors
+2026-03-19,PO-374,Bill PO-374 Thika Road Distributors,2000,Accounts Payable,,252100.00,Thika Road Distributors
+2026-03-19,PO-374,Cost of goods sold PO-374,5000,Cost of Sales,217300.00,,Thika Road Distributors
+2026-03-19,PO-374,Cost of goods sold PO-374,1200,Inventory,,217300.00,Thika Road Distributors
+2026-03-20,INV-3106,Invoice INV-3106 Coastline Logistics,1100,Accounts Receivable,922700.00,,Coastline Logistics
+2026-03-20,INV-3106,Invoice INV-3106 Coastline Logistics,4000,Sales,,795400.00,Coastline Logistics
+2026-03-20,INV-3106,Invoice INV-3106 Coastline Logistics,2200,VAT Payable,,127300.00,Coastline Logistics
+2026-03-22,INV-3105,Receipt Upper Hill Clinics INV-3105,1010,KCB Operating Account,270300.00,,Upper Hill Clinics
+2026-03-22,INV-3105,Receipt Upper Hill Clinics INV-3105,1100,Accounts Receivable,,270300.00,Upper Hill Clinics
+2026-03-22,PO-374,Payment Thika Road Distributors PO-374,2000,Accounts Payable,252100.00,,Thika Road Distributors
+2026-03-22,PO-374,Payment Thika Road Distributors PO-374,1010,KCB Operating Account,,252100.00,Thika Road Distributors
+2026-03-23,INV-3106,Receipt Coastline Logistics INV-3106,1010,KCB Operating Account,922700.00,,Coastline Logistics
+2026-03-23,INV-3106,Receipt Coastline Logistics INV-3106,1100,Accounts Receivable,,922700.00,Coastline Logistics
+2026-03-23,INV-3107,Invoice INV-3107 Upper Hill Clinics,1100,Accounts Receivable,924300.00,,Upper Hill Clinics
+2026-03-23,INV-3107,Invoice INV-3107 Upper Hill Clinics,4000,Sales,,796800.00,Upper Hill Clinics
+2026-03-23,INV-3107,Invoice INV-3107 Upper Hill Clinics,2200,VAT Payable,,127500.00,Upper Hill Clinics
+2026-03-23,PO-375,Bill PO-375 Eastlands Paper Co,1200,Inventory,103200.00,,Eastlands Paper Co
+2026-03-23,PO-375,Bill PO-375 Eastlands Paper Co,2200,VAT Payable,16500.00,,Eastlands Paper Co
+2026-03-23,PO-375,Bill PO-375 Eastlands Paper Co,2000,Accounts Payable,,119700.00,Eastlands Paper Co
+2026-03-23,PO-375,Cost of goods sold PO-375,5000,Cost of Sales,103200.00,,Eastlands Paper Co
+2026-03-23,PO-375,Cost of goods sold PO-375,1200,Inventory,,103200.00,Eastlands Paper Co
+2026-03-26,INV-3108,Invoice INV-3108 Kilele Supermarkets,1100,Accounts Receivable,857400.00,,Kilele Supermarkets
+2026-03-26,INV-3108,Invoice INV-3108 Kilele Supermarkets,4000,Sales,,739100.00,Kilele Supermarkets
+2026-03-26,INV-3108,Invoice INV-3108 Kilele Supermarkets,2200,VAT Payable,,118300.00,Kilele Supermarkets
+2026-03-27,PAY-3,Payroll net pay,6300,Salaries & Wages,1450000.00,,Staff
+2026-03-27,PAY-3,Payroll net pay,2300,PAYE & Statutory Payable,,261000.00,Staff
+2026-03-27,PAY-3,Payroll net pay,1010,KCB Operating Account,,1189000.00,Staff
+2026-03-30,CHG-3,Monthly bank charges,6400,Bank Charges,3900.00,,KCB
+2026-03-30,CHG-3,Monthly bank charges,1010,KCB Operating Account,,3900.00,KCB
+2026-04-01,RENT-4,Warehouse rent Industrial Area,6500,Rent,250000.00,,Enterprise Road Properties
+2026-04-01,RENT-4,Warehouse rent Industrial Area,1010,KCB Operating Account,,250000.00,Enterprise Road Properties
+2026-04-02,INV-4100,Invoice INV-4100 Upper Hill Clinics,1100,Accounts Receivable,1081500.00,,Upper Hill Clinics
+2026-04-02,INV-4100,Invoice INV-4100 Upper Hill Clinics,4000,Sales,,932300.00,Upper Hill Clinics
+2026-04-02,INV-4100,Invoice INV-4100 Upper Hill Clinics,2200,VAT Payable,,149200.00,Upper Hill Clinics
+2026-04-03,PO-470,Bill PO-470 Eastlands Paper Co,1200,Inventory,131300.00,,Eastlands Paper Co
+2026-04-03,PO-470,Bill PO-470 Eastlands Paper Co,2200,VAT Payable,21000.00,,Eastlands Paper Co
+2026-04-03,PO-470,Bill PO-470 Eastlands Paper Co,2000,Accounts Payable,,152300.00,Eastlands Paper Co
+2026-04-03,PO-470,Cost of goods sold PO-470,5000,Cost of Sales,131300.00,,Eastlands Paper Co
+2026-04-03,PO-470,Cost of goods sold PO-470,1200,Inventory,,131300.00,Eastlands Paper Co
+2026-04-04,QK404AX1101,Fuel Savanna Fuels delivery vans,6100,Fuel & Delivery,45000.00,,Savanna Fuels
+2026-04-04,QK404AX1101,Fuel Savanna Fuels delivery vans,1010,KCB Operating Account,,45000.00,Savanna Fuels
+2026-04-05,INV-4100,Receipt Upper Hill Clinics INV-4100,1010,KCB Operating Account,1081500.00,,Upper Hill Clinics
+2026-04-05,INV-4100,Receipt Upper Hill Clinics INV-4100,1100,Accounts Receivable,,1081500.00,Upper Hill Clinics
+2026-04-05,INV-4101,Invoice INV-4101 Coastline Logistics,1100,Accounts Receivable,511400.00,,Coastline Logistics
+2026-04-05,INV-4101,Invoice INV-4101 Coastline Logistics,4000,Sales,,440900.00,Coastline Logistics
+2026-04-05,INV-4101,Invoice INV-4101 Coastline Logistics,2200,VAT Payable,,70500.00,Coastline Logistics
+2026-04-06,PO-470,Payment Eastlands Paper Co PO-470,2000,Accounts Payable,152300.00,,Eastlands Paper Co
+2026-04-06,PO-470,Payment Eastlands Paper Co PO-470,1010,KCB Operating Account,,152300.00,Eastlands Paper Co
+2026-04-07,INV-4101,Receipt Coastline Logistics INV-4101,1010,KCB Operating Account,511400.00,,Coastline Logistics
+2026-04-07,INV-4101,Receipt Coastline Logistics INV-4101,1100,Accounts Receivable,,511400.00,Coastline Logistics
+2026-04-07,PO-471,Bill PO-471 Thika Road Distributors,1200,Inventory,336100.00,,Thika Road Distributors
+2026-04-07,PO-471,Bill PO-471 Thika Road Distributors,2200,VAT Payable,53800.00,,Thika Road Distributors
+2026-04-07,PO-471,Bill PO-471 Thika Road Distributors,2000,Accounts Payable,,389900.00,Thika Road Distributors
+2026-04-07,PO-471,Cost of goods sold PO-471,5000,Cost of Sales,336100.00,,Thika Road Distributors
+2026-04-07,PO-471,Cost of goods sold PO-471,1200,Inventory,,336100.00,Thika Road Distributors
+2026-04-08,INV-4102,Invoice INV-4102 Upper Hill Clinics,1100,Accounts Receivable,1187100.00,,Upper Hill Clinics
+2026-04-08,INV-4102,Invoice INV-4102 Upper Hill Clinics,4000,Sales,,1023400.00,Upper Hill Clinics
+2026-04-08,INV-4102,Invoice INV-4102 Upper Hill Clinics,2200,VAT Payable,,163700.00,Upper Hill Clinics
+2026-04-08,QK408BX5862,Fuel Highway Petroleum delivery vans,6100,Fuel & Delivery,47900.00,,Highway Petroleum
+2026-04-08,QK408BX5862,Fuel Highway Petroleum delivery vans,1010,KCB Operating Account,,47900.00,Highway Petroleum
+2026-04-10,INV-4102,Receipt Upper Hill Clinics INV-4102,1010,KCB Operating Account,1187100.00,,Upper Hill Clinics
+2026-04-10,INV-4102,Receipt Upper Hill Clinics INV-4102,1100,Accounts Receivable,,1187100.00,Upper Hill Clinics
+2026-04-10,PO-471,Payment Thika Road Distributors PO-471,2000,Accounts Payable,389900.00,,Thika Road Distributors
+2026-04-10,PO-471,Payment Thika Road Distributors PO-471,1010,KCB Operating Account,,389900.00,Thika Road Distributors
+2026-04-11,INV-4103,Invoice INV-4103 Coastline Logistics,1100,Accounts Receivable,819200.00,,Coastline Logistics
+2026-04-11,INV-4103,Invoice INV-4103 Coastline Logistics,4000,Sales,,706200.00,Coastline Logistics
+2026-04-11,INV-4103,Invoice INV-4103 Coastline Logistics,2200,VAT Payable,,113000.00,Coastline Logistics
+2026-04-11,PO-472,Bill PO-472 Pwani Imports Ltd,1200,Inventory,205500.00,,Pwani Imports Ltd
+2026-04-11,PO-472,Bill PO-472 Pwani Imports Ltd,2200,VAT Payable,32900.00,,Pwani Imports Ltd
+2026-04-11,PO-472,Bill PO-472 Pwani Imports Ltd,2000,Accounts Payable,,238400.00,Pwani Imports Ltd
+2026-04-11,PO-472,Cost of goods sold PO-472,5000,Cost of Sales,205500.00,,Pwani Imports Ltd
+2026-04-11,PO-472,Cost of goods sold PO-472,1200,Inventory,,205500.00,Pwani Imports Ltd
+2026-04-12,QK412CX9891,Fuel Savanna Fuels delivery vans,6100,Fuel & Delivery,46700.00,,Savanna Fuels
+2026-04-12,QK412CX9891,Fuel Savanna Fuels delivery vans,1010,KCB Operating Account,,46700.00,Savanna Fuels
+2026-04-14,INV-4104,Invoice INV-4104 Kilele Supermarkets,1100,Accounts Receivable,490100.00,,Kilele Supermarkets
+2026-04-14,INV-4104,Invoice INV-4104 Kilele Supermarkets,4000,Sales,,422500.00,Kilele Supermarkets
+2026-04-14,INV-4104,Invoice INV-4104 Kilele Supermarkets,2200,VAT Payable,,67600.00,Kilele Supermarkets
+2026-04-14,PO-472,Payment Pwani Imports Ltd PO-472,2000,Accounts Payable,238400.00,,Pwani Imports Ltd
+2026-04-14,PO-472,Payment Pwani Imports Ltd PO-472,1010,KCB Operating Account,,238400.00,Pwani Imports Ltd
+2026-04-15,PO-473,Bill PO-473 Thika Road Distributors,1200,Inventory,384900.00,,Thika Road Distributors
+2026-04-15,PO-473,Bill PO-473 Thika Road Distributors,2200,VAT Payable,61600.00,,Thika Road Distributors
+2026-04-15,PO-473,Bill PO-473 Thika Road Distributors,2000,Accounts Payable,,446500.00,Thika Road Distributors
+2026-04-15,PO-473,Cost of goods sold PO-473,5000,Cost of Sales,384900.00,,Thika Road Distributors
+2026-04-15,PO-473,Cost of goods sold PO-473,1200,Inventory,,384900.00,Thika Road Distributors
+2026-04-16,INV-4103,Receipt Coastline Logistics INV-4103,1010,KCB Operating Account,819200.00,,Coastline Logistics
+2026-04-16,INV-4103,Receipt Coastline Logistics INV-4103,1100,Accounts Receivable,,819200.00,Coastline Logistics
+2026-04-16,INV-4104,Receipt Kilele Supermarkets INV-4104,1010,KCB Operating Account,490100.00,,Kilele Supermarkets
+2026-04-16,INV-4104,Receipt Kilele Supermarkets INV-4104,1100,Accounts Receivable,,490100.00,Kilele Supermarkets
+2026-04-16,QK416DX6361,Fuel Highway Petroleum delivery vans,6100,Fuel & Delivery,62700.00,,Highway Petroleum
+2026-04-16,QK416DX6361,Fuel Highway Petroleum delivery vans,1010,KCB Operating Account,,62700.00,Highway Petroleum
+2026-04-17,INV-4105,Invoice INV-4105 Upper Hill Clinics,1100,Accounts Receivable,1058700.00,,Upper Hill Clinics
+2026-04-17,INV-4105,Invoice INV-4105 Upper Hill Clinics,4000,Sales,,912700.00,Upper Hill Clinics
+2026-04-17,INV-4105,Invoice INV-4105 Upper Hill Clinics,2200,VAT Payable,,146000.00,Upper Hill Clinics
+2026-04-18,PO-473,Payment Thika Road Distributors PO-473,2000,Accounts Payable,446500.00,,Thika Road Distributors
+2026-04-18,PO-473,Payment Thika Road Distributors PO-473,1010,KCB Operating Account,,446500.00,Thika Road Distributors
+2026-04-18,KPLC-4,KPLC electricity warehouse,6200,Electricity,212000.00,,Kenya Power
+2026-04-18,KPLC-4,KPLC electricity warehouse,1010,KCB Operating Account,,212000.00,Kenya Power
+2026-04-19,INV-4105,Receipt Upper Hill Clinics INV-4105,1010,KCB Operating Account,1058700.00,,Upper Hill Clinics
+2026-04-19,INV-4105,Receipt Upper Hill Clinics INV-4105,1100,Accounts Receivable,,1058700.00,Upper Hill Clinics
+2026-04-19,PO-474,Bill PO-474 Thika Road Distributors,1200,Inventory,434300.00,,Thika Road Distributors
+2026-04-19,PO-474,Bill PO-474 Thika Road Distributors,2200,VAT Payable,69500.00,,Thika Road Distributors
+2026-04-19,PO-474,Bill PO-474 Thika Road Distributors,2000,Accounts Payable,,503800.00,Thika Road Distributors
+2026-04-19,PO-474,Cost of goods sold PO-474,5000,Cost of Sales,434300.00,,Thika Road Distributors
+2026-04-19,PO-474,Cost of goods sold PO-474,1200,Inventory,,434300.00,Thika Road Distributors
+2026-04-20,INV-4106,Invoice INV-4106 Kilele Supermarkets,1100,Accounts Receivable,362300.00,,Kilele Supermarkets
+2026-04-20,INV-4106,Invoice INV-4106 Kilele Supermarkets,4000,Sales,,312300.00,Kilele Supermarkets
+2026-04-20,INV-4106,Invoice INV-4106 Kilele Supermarkets,2200,VAT Payable,,50000.00,Kilele Supermarkets
+2026-04-20,QK420EX9580,Fuel Savanna Fuels delivery vans,6100,Fuel & Delivery,41000.00,,Savanna Fuels
+2026-04-20,QK420EX9580,Fuel Savanna Fuels delivery vans,1010,KCB Operating Account,,41000.00,Savanna Fuels
+2026-04-22,PO-474,Payment Thika Road Distributors PO-474,2000,Accounts Payable,503800.00,,Thika Road Distributors
+2026-04-22,PO-474,Payment Thika Road Distributors PO-474,1010,KCB Operating Account,,503800.00,Thika Road Distributors
+2026-04-23,INV-4106,Receipt Kilele Supermarkets INV-4106,1010,KCB Operating Account,362300.00,,Kilele Supermarkets
+2026-04-23,INV-4106,Receipt Kilele Supermarkets INV-4106,1100,Accounts Receivable,,362300.00,Kilele Supermarkets
+2026-04-23,INV-4107,Invoice INV-4107 Savannah Hotels Ltd,1100,Accounts Receivable,605200.00,,Savannah Hotels Ltd
+2026-04-23,INV-4107,Invoice INV-4107 Savannah Hotels Ltd,4000,Sales,,521700.00,Savannah Hotels Ltd
+2026-04-23,INV-4107,Invoice INV-4107 Savannah Hotels Ltd,2200,VAT Payable,,83500.00,Savannah Hotels Ltd
+2026-04-23,PO-475,Bill PO-475 Eastlands Paper Co,1200,Inventory,328800.00,,Eastlands Paper Co
+2026-04-23,PO-475,Bill PO-475 Eastlands Paper Co,2200,VAT Payable,52600.00,,Eastlands Paper Co
+2026-04-23,PO-475,Bill PO-475 Eastlands Paper Co,2000,Accounts Payable,,381400.00,Eastlands Paper Co
+2026-04-23,PO-475,Cost of goods sold PO-475,5000,Cost of Sales,328800.00,,Eastlands Paper Co
+2026-04-23,PO-475,Cost of goods sold PO-475,1200,Inventory,,328800.00,Eastlands Paper Co
+2026-04-24,QK424FX6358,Fuel Highway Petroleum delivery vans,6100,Fuel & Delivery,55500.00,,Highway Petroleum
+2026-04-24,QK424FX6358,Fuel Highway Petroleum delivery vans,1010,KCB Operating Account,,55500.00,Highway Petroleum
+2026-04-26,INV-4108,Invoice INV-4108 Savannah Hotels Ltd,1100,Accounts Receivable,866200.00,,Savannah Hotels Ltd
+2026-04-26,INV-4108,Invoice INV-4108 Savannah Hotels Ltd,4000,Sales,,746700.00,Savannah Hotels Ltd
+2026-04-26,INV-4108,Invoice INV-4108 Savannah Hotels Ltd,2200,VAT Payable,,119500.00,Savannah Hotels Ltd
+2026-04-26,CHQ000412,Repairs to delivery van - cheque 000412,6600,Repairs & Maintenance,96000.00,,Mombasa Road Motors
+2026-04-26,CHQ000412,Repairs to delivery van - cheque 000412,1010,KCB Operating Account,,96000.00,Mombasa Road Motors
+2026-04-27,PAY-4,Payroll net pay,6300,Salaries & Wages,1508000.00,,Staff
+2026-04-27,PAY-4,Payroll net pay,2300,PAYE & Statutory Payable,,271400.00,Staff
+2026-04-27,PAY-4,Payroll net pay,1010,KCB Operating Account,,1236600.00,Staff
+2026-04-30,CHG-4,Monthly bank charges,6400,Bank Charges,4850.00,,KCB
+2026-04-30,CHG-4,Monthly bank charges,1010,KCB Operating Account,,4850.00,KCB

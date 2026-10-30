@@ -1,0 +1,10 @@
+Invoice No,eTIMS CU Invoice No,Invoice Date,Customer PIN,Customer Name,Document Type,Original Invoice,Net Amount,VAT Amount,Total,VAT Code,Description
+SI-2026-0401,0040562500000000401,2026-04-03,P051111111A,Kilimani Retailers Ltd,Invoice,,250000.00,40000.00,290000.00,S,Office and business supplies
+SI-2026-0402,,2026-04-06,P052222222B,Westlands Hardware Ltd,Invoice,,100000.00,16000.00,116000.00,S,Office and business supplies
+SI-2026-0403,,2026-04-08,P053333333C,Ruiru Stationers,Invoice,,50000.00,8000.00,58000.00,S,Office and business supplies
+SI-2026-0404,,2026-04-14,P054444444D,Thika Office Mart,Invoice,,80000.00,12800.00,92800.00,S,Office and business supplies
+SI-2026-0405,,2026-04-15,,Cash customer,Invoice,,30000.00,4800.00,34800.00,S,Office and business supplies
+SI-2026-0406,,2026-04-30,P055555555E,Mombasa Traders Ltd,Invoice,,45000.00,7200.00,52200.00,S,Office and business supplies
+SI-2026-0407,,2026-04-18,P051010101Z,County Government of Nairobi,Invoice,,500000.00,80000.00,580000.00,S,Office and business supplies
+SI-2026-0408,,2026-04-21,P056666666F,Nakuru Supplies Ltd,Invoice,,64000.00,10240.00,74240.00,S,Office and business supplies
+SC-2026-0011,,2026-04-24,P051111111A,Kilimani Retailers Ltd,Credit Note,SI-2026-0399,-20000.00,-3200.00,-23200.00,S,Returned toner cartridges

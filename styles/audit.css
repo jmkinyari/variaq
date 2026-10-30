@@ -1,0 +1,25 @@
+/* Audit & control module */
+.sev { display: inline-block; min-width: 4.2em; text-align: center; }
+.findings td { vertical-align: top; }
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: .3rem 1rem; font-size: .9rem; }
+.kv dt { color: var(--text-2); }
+.kv dd { margin: 0; }
+.benford { width: 100%; max-width: 520px; height: auto; }
+.benford .bar { fill: var(--accent); opacity: .75; }
+.benford .exp { stroke: var(--bad); stroke-width: 2; fill: none; }
+.benford text { fill: var(--text-2); font-size: 11px; font-family: var(--body); }
+.test-row { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem; padding: .9rem 0; border-top: 1px solid var(--border); }
+.test-row:first-child { border-top: 0; }
+.test-row ul { margin: .4rem 0 0; padding-left: 1.1rem; font-size: .88rem; }
+.conf { display: inline-block; height: 6px; border-radius: 3px; background: var(--muted); width: 60px; vertical-align: middle; overflow: hidden; }
+.conf > span { display: block; height: 100%; background: var(--accent); }
+.evidence h3 { margin-top: 1.4rem; }
+.report-page { max-width: 860px; margin: 0 auto; background: var(--card); padding: 2rem; border: 1px solid var(--border); border-radius: var(--radius); }
+.report-page h1 { font-size: 1.9rem; }
+.report-page table { font-size: .85rem; }
+@media print {
+  .no-print, .sidebar, .mobile-top { display: none !important; }
+  .main { padding: 0 !important; margin: 0 !important; }
+  .report-page { border: 0; padding: 0; max-width: none; }
+  body { background: #fff; color: #000; }
+}

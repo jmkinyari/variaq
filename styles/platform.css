@@ -1,0 +1,18 @@
+/* Platform module styles: integrations, tasks board, journal drill-down. Uses the global tokens. */
+.connector-card:hover { border-color: var(--accent); }
+.code-block { background: var(--muted); border: 1px solid var(--border); border-radius: var(--radius); padding: .8rem; overflow-x: auto; font-size: .8rem; line-height: 1.45; white-space: pre; margin: 0; }
+.kanban { display: grid; grid-template-columns: repeat(4, minmax(220px, 1fr)); gap: .8rem; overflow-x: auto; }
+.kanban .col { background: var(--muted); border-radius: var(--radius); padding: .6rem; min-height: 120px; }
+.kanban .col h4 { margin: 0 0 .5rem; font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; color: var(--text-2); display: flex; justify-content: space-between; }
+.task-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: .55rem .65rem; margin-bottom: .5rem; color: var(--text); text-decoration: none; font-size: .9rem; }
+.task-card:hover { border-color: var(--accent); text-decoration: none; }
+.task-card .meta { font-size: .78rem; color: var(--text-3); margin-top: .25rem; display: flex; gap: .4rem; flex-wrap: wrap; align-items: center; }
+.prio-HIGH, .prio-URGENT { border-left: 3px solid var(--bad); }
+.prio-LOW { border-left: 3px solid var(--border); }
+.workload-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--muted); min-width: 120px; }
+.workload-bar span { display: block; height: 100%; }
+.comment { border-left: 2px solid var(--border); padding: .2rem 0 .2rem .7rem; margin-bottom: .7rem; }
+.chain-ok { border-color: var(--good); }
+.chain-bad { border-color: var(--bad); }
+tr.unbalanced td { background: var(--bad-bg); }
+@media (max-width: 860px) { .kanban { grid-template-columns: repeat(4, 80vw); } }

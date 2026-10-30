@@ -1,0 +1,82 @@
+/* Variaq AI: floating assistant, inline chat, reports, admin console. Uses the app's theme tokens. */
+.ai-fab {
+  position: fixed; right: max(18px, env(safe-area-inset-right)); bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 60; display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 999px;
+  border: 0; background: var(--accent); color: var(--accent-contrast); font: 600 14px var(--body); cursor: pointer;
+  box-shadow: 0 6px 24px rgba(41, 36, 45, .25);
+}
+.ai-fab:hover { filter: brightness(1.08); }
+.ai-fab:focus-visible { outline: 3px solid var(--info); outline-offset: 2px; }
+.ai-scrim { position: fixed; inset: 0; z-index: 61; background: rgba(20, 16, 24, .28); }
+
+.ai-panel { display: flex; flex-direction: column; background: var(--card); color: var(--text); border: 1px solid var(--border); min-height: 0; }
+.ai-panel.floating {
+  position: fixed; z-index: 62; right: 16px; bottom: 16px; top: 16px; width: min(460px, calc(100vw - 32px));
+  border-radius: 14px; box-shadow: 0 18px 60px rgba(20, 16, 24, .32);
+}
+.ai-panel.inline { border-radius: var(--radius); height: min(78vh, 820px); }
+.ai-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 14px; border-bottom: 1px solid var(--border); }
+.ai-body { flex: 1; overflow-y: auto; padding: 14px; overscroll-behavior: contain; }
+.ai-input { display: flex; gap: 8px; padding: 10px; border-top: 1px solid var(--border); align-items: flex-end; padding-bottom: max(10px, env(safe-area-inset-bottom)); }
+.ai-input textarea { flex: 1; resize: none; min-height: 44px; max-height: 160px; font: inherit; }
+.ai-input .btn { min-height: 44px; }
+.ai-empty .ai-quick { display: flex; flex-wrap: wrap; gap: 6px; }
+.ai-msg { margin: 0 0 14px; }
+.ai-msg.user { display: flex; justify-content: flex-end; }
+.ai-user-text { background: var(--accent); color: var(--accent-contrast); padding: 8px 12px; border-radius: 14px 14px 4px 14px; max-width: 85%; white-space: pre-wrap; overflow-wrap: anywhere; }
+.ai-msg.assistant { background: var(--muted); border-radius: 4px 14px 14px 14px; padding: 10px 12px; }
+.ai-tools { margin-bottom: 4px; }
+.ai-label { margin-top: 6px; font-size: .72rem; color: var(--text-3); }
+.ai-md p { margin: 0 0 .55em; }
+.ai-md p:last-child { margin-bottom: 0; }
+.ai-md .ai-h { font-weight: 600; margin-top: .6em; }
+.ai-md ul, .ai-md ol { margin: .2em 0 .6em; padding-left: 1.2em; }
+.ai-md code { background: var(--card); padding: 0 4px; border-radius: 4px; font-size: .9em; }
+.ai-md .ai-table { margin: .4em 0 .7em; }
+.ai-md .ai-table table { font-size: .85rem; }
+.ai-proposal { margin-top: 10px; padding: 10px; border: 1px dashed var(--accent); border-radius: 10px; background: var(--card); }
+.ai-typing { display: flex; align-items: center; gap: 4px; color: var(--text-2); font-size: .9rem; }
+.ai-typing span { width: 6px; height: 6px; border-radius: 50%; background: var(--text-3); animation: ai-blink 1.2s infinite; }
+.ai-typing span:nth-child(2) { animation-delay: .2s; } .ai-typing span:nth-child(3) { animation-delay: .4s; margin-right: 6px; }
+@keyframes ai-blink { 0%, 80%, 100% { opacity: .25; } 40% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .ai-typing span { animation: none; } }
+.ai-history { max-height: 220px; overflow-y: auto; border-bottom: 1px solid var(--border); padding: 6px; }
+.ai-hist-item { display: block; width: 100%; text-align: left; background: none; border: 0; padding: 8px; border-radius: 6px; color: var(--text); cursor: pointer; font: inherit; }
+.ai-hist-item:hover { background: var(--muted); }
+
+.ai-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 1rem; align-items: start; }
+.ai-report-list { list-style: none; margin: 0; padding: 0; }
+.ai-report-list li { padding: 8px 0; border-bottom: 1px solid var(--border); }
+.ai-report-list li:last-child { border-bottom: 0; }
+.ai-report-frame { width: 100%; height: 80vh; min-height: 520px; border: 1px solid var(--border); border-radius: var(--radius); background: #fff; margin-top: 1rem; }
+.ai-report-actions { margin-bottom: .6rem; }
+.ai-dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; margin: .8rem 0 0; font-size: .9rem; }
+.ai-dl dt { color: var(--text-2); } .ai-dl dd { margin: 0; }
+
+/* Phones and small tablets: assistant becomes a full-screen sheet; layouts stack. */
+@media (max-width: 860px) {
+  .ai-grid { grid-template-columns: 1fr; }
+  .ai-panel.inline { height: 70vh; }
+  .ai-report-frame { height: 75vh; min-height: 420px; }
+}
+@media (max-width: 600px) {
+  .ai-panel.floating { inset: 0; width: 100%; border-radius: 0; border: 0; top: env(safe-area-inset-top); }
+  .ai-fab { padding: 14px; } .ai-fab span { display: none; }
+  .ai-user-text { max-width: 92%; }
+}
+@media print { .ai-fab, .ai-panel.floating, .ai-scrim { display: none !important; } }
+
+/* Project Variaq specialists: picker tabs, context chips, badges, background tasks, artifacts. */
+.ai-agents { display: flex; gap: 4px; padding: 8px 10px; border-bottom: 1px solid var(--border); overflow-x: auto; scrollbar-width: thin; }
+.ai-agent-tab { flex: none; border: 1px solid var(--border); background: var(--card); color: var(--text-2); border-radius: 999px; padding: 4px 11px; font: 500 .8rem var(--body); cursor: pointer; }
+.ai-agent-tab:hover { background: var(--muted); }
+.ai-agent-tab.on { background: var(--accent); border-color: var(--accent); color: var(--accent-contrast); }
+.ai-agent-tab:focus-visible { outline: 2px solid var(--info); outline-offset: 1px; }
+.ai-context { display: flex; flex-wrap: wrap; gap: 6px; padding: 6px 12px; border-bottom: 1px solid var(--border); }
+.ai-chip { display: inline-flex; align-items: center; gap: 4px; background: var(--muted); border-radius: 999px; padding: 2px 4px 2px 10px; }
+.ai-chip button { border: 0; background: none; color: var(--text-3); cursor: pointer; font: inherit; padding: 0 6px; }
+.ai-agent-badge { display: inline-block; font-size: .7rem; font-weight: 600; letter-spacing: .02em; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 0 8px; margin: 0 6px 4px 0; }
+.ai-jobs { padding: 6px 12px; border-bottom: 1px solid var(--border); }
+.ai-job { padding: 2px 0; }
+.ai-ask-link { white-space: nowrap; }
+.ai-artifact-payload { background: var(--muted); border-radius: var(--radius); padding: 10px; overflow-x: auto; font-size: .8rem; max-height: 60vh; }

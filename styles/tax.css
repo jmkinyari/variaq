@@ -1,0 +1,13 @@
+/* Tax module additions (builds on globals.css tokens). */
+.tax-vat3, .tax-checks { width: 100%; border-collapse: collapse; }
+.tax-vat3 td, .tax-checks td { padding: .35rem .4rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+.tax-vat3 tr.total td { font-weight: 600; border-top: 1px solid var(--text-3); }
+.tax-items tr.reviewed td { opacity: .72; }
+.tax-action > div + div { margin-top: .25rem; }
+.tax-next { margin-top: .35rem; padding: .35rem .5rem; background: var(--muted); border-radius: var(--radius); }
+.tax-review select, .tax-review input { font-size: .82rem; padding: .25rem .4rem; }
+.tax-run-select { width: auto; font-size: .8rem; padding: .1rem .3rem; }
+.tax-cal td.overdue { color: var(--bad); font-weight: 600; }
+.tax-ref h4 { margin: 1rem 0 .3rem; font-family: var(--body); font-size: .95rem; font-weight: 600; }
+.tax-src { font-size: .78rem; color: var(--text-3); }
+.tax-src a { color: var(--text-3); text-decoration: underline; }
